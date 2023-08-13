@@ -1,0 +1,33 @@
+.profilepembeli{
+    max-width: 100dvw;
+    height: 100%;
+    max-height: 100dvh;
+
+    background-color: white;
+    margin: 0;
+}
+
+.profilepembeli-con{
+    background-color: white;
+
+    width: auto;
+    height: 90dvh;
+
+    overflow-x: hidden;
+}
+
+.bg-foto-profile{
+    width: 310px;
+    height: 310px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.foto-profile{
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-profile-bio{
+    height: 100%;
+}

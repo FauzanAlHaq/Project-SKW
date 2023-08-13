@@ -1,0 +1,71 @@
+.profil-pembeli-admin{
+    height: 90dvh;
+}
+
+.text-title-halaman{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.search-admin{
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 400px;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: .2s ease;
+}
+
+.logo-search-admin{
+    margin-left: 100%;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 60px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: .2s ease;
+}
+
+.search-admin:hover{
+   border: 1px solid grey;
+}
+
+.logo-search-admin:hover{
+   border: 1px solid grey;
+}
+
+.text-jumlah-beli{
+    font-weight: bold;
+    color: red;
+}
+
+.text-stok-masuk{
+    font-weight: bold;
+    color: #0fab55;
+}
+
+.text-stok-ubah{
+    font-weight: bold;
+    color: #F6C90E;
+}
+
+.text-info-admin{
+    height: 100%;
+    color: grey;
+}
+
+.text-stok-toko{
+    font-weight: bold;
+}
+
+.text-info-admin-data{
+    background-color: #2C3333;
+    border-radius: 5px;
+
+    min-width: 2em;
+    height: 2em;
+
+    color: white;
+}

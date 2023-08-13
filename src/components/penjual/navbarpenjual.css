@@ -1,0 +1,13 @@
+.navbar-penjual{
+    width: 100%;
+    height: 60px;
+    background-color: #0A2647;
+}
+
+.text-navbar-penjual{
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    font-weight: 400;
+    color: white;
+}

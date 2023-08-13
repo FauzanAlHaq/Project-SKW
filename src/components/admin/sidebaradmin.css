@@ -1,0 +1,105 @@
+.sidebar-admin{
+    width: 100%;
+    min-height: 100dvh;
+    background-color: #2C3333;
+}
+
+#text-sidebar-admin{
+    color: white;
+    font-weight: 400;
+    font-size: 1.1em;
+    width: 100%;
+}
+
+.sidebar-item{
+    padding: .75em 1em;
+    display: block;
+    transition: background-color .15s;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 50px;
+  }
+  .sidebar-item:hover{
+    background-color: rgba(255, 255, 255, .1);
+    
+  }
+  
+  .sidebar-title{
+    display: flex;
+    font-size: 1.2em;
+    height: 100%;
+  }
+
+  .icon-title{
+    margin-right: 10px;
+  }
+  .sidebar-title span i{
+    display: inline-block;
+    width: 1em;
+  }
+  .sidebar-title .toggle-btn{
+    margin-left: 20px;
+    cursor: pointer;
+    transition: transform .3s;
+  }
+  .sidebar-item.open > .sidebar-title .toggle-btn{
+    transform: rotate(90deg);
+  }
+  .sidebar-content{
+    padding-top: .25em;
+    height: 0;
+    overflow: hidden;
+    
+  }
+  .sidebar-item.open > .sidebar-content{
+    height: auto;
+  }
+
+  .text-sidebar-admin-title{
+    font-size: 23px;
+    transition: .2s ease;
+    cursor: pointer;
+
+    height: 10%;
+  }
+
+  .text-sidebar-admin-content{
+    font-size: 18px;
+    transition: .2s ease;
+    border-radius: 5px;
+    color: white;
+
+    height: 40px;
+    cursor: pointer;
+    padding-left: 1em;
+  }
+
+  .text-sidebar-admin-content:hover{
+    backdrop-filter: contrast(55%);
+    padding-left: 1.5em;
+  }
+
+  .text-sidebar-admin-content-active{
+    font-size: 18px;
+    transition: .2s ease;
+    border-radius: 5px;
+    color: white;
+
+    height: 40px;
+    cursor: pointer;
+    background-color: grey;
+    padding-left: 1.5em;
+  }
+
+  .bg-text-notif-pesanan{
+    border-radius: 50%;
+    height: 21px;
+    width: 21px;
+    background-color: white;
+  }
+
+  .text-notif-pesanan{
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+

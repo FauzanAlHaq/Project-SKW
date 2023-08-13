@@ -1,0 +1,41 @@
+.bg-warna-input{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    transition: .2s ease;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 35px;
+    height: auto;
+    width: 300px;
+}
+
+.text-warna-input{
+    font-weight: 400;
+}
+
+.bg-input-gambar-item-edit{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 60%;
+
+}
+
+.input-gambar-item{
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* background-color: grey; */
+    width: 100px;
+    height: 100px;
+    margin-left: 75px;
+}
+
+.input-gambar-item-edit{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.text-info-edit-item{
+    color: gray;
+    height: 100%;
+    margin-right: 10px;
+}

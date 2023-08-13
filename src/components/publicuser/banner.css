@@ -1,0 +1,37 @@
+.banner {
+  width: 81%;
+  min-height: 450px;
+  height: 450px;
+  max-height: 100%;
+
+  border-radius: 10px;
+}
+
+/* @media (min-width: 600px) and (max-width: 769px) {
+  .banner {
+    width: 105%;
+  }
+} */
+
+.img-carousel-banner {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-indicators .indicator {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+}
+
+.carousel-indicators button .active {
+  background-color: #0e8388;
+}
+
+.banner-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

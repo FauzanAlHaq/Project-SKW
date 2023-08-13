@@ -1,0 +1,40 @@
+.info-pembeli {
+  width: 99%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  min-height: 80dvh;
+  height: 39em;
+
+  background-color: #0e8388;
+}
+
+.profile-card-kanan {
+  height: 100%;
+  width: 100%;
+  border-radius: 0px 10px 10px 0px;
+  background-color: white;
+}
+
+.bg-foto-profile-pembeli {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background-color: #e7f6f2;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.foto-profile {
+  border-radius: 50%;
+  height: 270px;
+  width: 270px;
+  object-fit: cover;
+}
+
+.icon-ubah {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.icon-ubah:hover {
+  transform: rotate(180deg);
+}

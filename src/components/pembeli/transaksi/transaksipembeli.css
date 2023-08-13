@@ -1,0 +1,229 @@
+.item-transaksi-pembeli-atas {
+  height: 5em;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.item-transaksi-pembeli-konfirmasi {
+  min-height: 3em;
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 1px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.judul-pesananku {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  height: 3em;
+}
+
+.text-judul-pesananku {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.text-judul-pesananku-notactive {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgb(160, 160, 160);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.text-judul-pesananku-notactive:hover {
+  color: black;
+}
+
+.data-pesananku {
+  background-color: white;
+
+  width: auto;
+  height: 80dvh;
+
+  overflow-x: hidden;
+}
+
+.item-transaksi-pembeli-atas:hover {
+  backdrop-filter: brightness(90%);
+}
+
+.item-transaksi-pembeli-detail {
+  min-height: 12em;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 1px;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.1s ease;
+}
+
+.item-transaksi-pembeli-detail:hover {
+  /* filter: brightness(90%); */
+  box-shadow: rgba(0, 0, 0, 1) 0px 0px 2px;
+}
+
+.text-item-pesanan-selesai {
+  color: #0e8388;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.no-list-item {
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  background-color: #888;
+  transition: 0.2s ease;
+}
+
+.arrow-detail {
+  transform: 0.2 ease;
+}
+
+.text-nama-item-detail {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.text-harga-item-detail {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #0e8388;
+}
+
+.text-status-item-detail {
+  font-weight: bold;
+}
+
+.arrow-detail-active {
+  transform: rotate(90deg);
+}
+
+.text-no-item-transaksi {
+  height: 100%;
+  font-weight: 600;
+}
+
+.bg-img-transaksi-pembeli {
+  height: 4em;
+  width: 4em;
+  background-color: green;
+}
+
+.text-nama-item-transaksi {
+  height: 100%;
+  font-family: Poppins;
+}
+
+.text-nama-toko-item-detail {
+  height: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  color: #0e8388;
+  transition: 0.2s ease;
+}
+
+.text-nama-toko-item-detail:hover {
+  color: white;
+  background-color: #0e8388;
+}
+
+.text-total-item-transaksi {
+  height: 100%;
+  font-family: Poppins;
+}
+
+.arrow-transaksi {
+  height: 100%;
+}
+
+.bg-img-transaksi-pembeli-detail {
+  height: 8em;
+  width: 8em;
+  background-color: aquamarine;
+}
+
+.but-bermasalah-transaksi {
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: grey;
+  font-size: 1.2em;
+  font-weight: 600;
+  height: 35px;
+  width: 220px;
+  transition: 0.2s ease;
+}
+
+.but-bermasalah-transaksi:hover {
+  background-color: black;
+  color: #f7f7f7;
+}
+
+.but-terima-transaksi {
+  border: none;
+  border-radius: 5px;
+  background-color: #0e8388;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  height: 35px;
+  width: 220px;
+  transition: 0.2s ease;
+}
+
+.but-terima-transaksi-disable {
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: grey;
+  font-weight: 600;
+  height: 2.3em;
+  width: 300px;
+  transition: 0.2s ease;
+  cursor: no-drop;
+}
+
+.but-terima-transaksi:hover {
+  filter: brightness(80%);
+}
+
+.garis-vertical-kanan {
+  height: 80%;
+  border-right: 1px solid rgb(228, 228, 228);
+}
+
+.garis-vertical-kiri {
+  height: 80%;
+  border-left: 1px solid rgb(228, 228, 228);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
